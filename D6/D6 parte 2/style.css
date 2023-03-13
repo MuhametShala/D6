@@ -1,0 +1,378 @@
+body{
+
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e3e0e0;
+}
+
+#corpodue{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+/* header */
+
+#logo{
+
+    background-color: #222f3e;
+}
+
+.amazon{
+
+    margin-left: 3%;
+}
+
+/* barra navigazione */
+
+#barranav {
+
+    background-color: #354758;
+    overflow: hidden;
+    z-index: 1;
+    display: block;
+
+
+}
+
+.linkbarra {
+
+    float: left;
+    color:#fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: #354758;
+}
+
+.linkbarra:hover {
+    background: rgb(88,84,81);
+    background: linear-gradient(43deg, rgba(88,84,81,1) 0%, rgba(240,125,25,1) 100%);
+    
+    
+}
+
+/* titolo arancio */
+
+.orangetitle {
+    color: #fff;
+    background-color: #f07d19;
+    padding: 10px 10px;
+    height: 80%;
+    text-align: center;
+}
+
+/*container_1 e h1 */
+
+#container_1{
+
+    background-image: url("assets/bg-image.png");
+    text-align: center;
+
+}
+
+.titolo{
+
+    padding: 2em;
+    color:#fff;
+    
+}
+
+.acapo{
+
+    font-size: large;
+    
+}
+
+/* immagini affiancate */
+
+#container_2{
+
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    
+    
+}
+
+/* pezzo NUOVO D6 */
+
+#container_2{
+    overflow: hidden;
+}
+
+.affianco:hover img{
+    filter: brightness(50%);
+}
+
+.affianco img{
+    background-color: #000;
+    transition: 0.5s;
+}
+
+.cuore{
+    position: absolute;
+    left: 230px;
+    top: -45px;
+    transition: 0.5s;
+    font-size: 1.5em;
+    cursor: pointer;
+    font-size: 40px;
+    padding: 5px 5px;
+    
+
+}
+
+.cuore:hover{
+    color: red;
+}
+
+.affianco:hover .cuore{
+    top: 15px;
+}
+
+.carrello{
+    color: #fff;
+    background-color: #017185;
+    width: 80%;
+    height: 25px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    border-radius: 30px;
+    cursor: pointer;
+    bottom: -50px;
+    font-size: 20px;
+}
+
+.affianco:hover .carrello{
+
+    bottom: 50px;
+}
+
+.carrello:hover{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+/* fine pezzo NUOVO D6 */
+
+.affianco{
+    float: center;
+    display: block;
+    width: 300px;
+    height: 400px;
+    margin-top: 40px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.centro{
+    width: 90%;
+    height: 90%;
+    border-radius: 5%;
+    box-shadow: 5px 5px 10px 1px #969595;
+}
+
+.position{
+    position: absolute;
+    left: 30px;
+    padding-top: 15px;
+    font-weight: 700;
+}
+
+/* .position{
+
+    font-weight: bold;
+    position: absolute;
+    margin-left: 30px;
+
+} */
+
+/* vr immagine e scrivania */
+
+#centroimg{
+
+    height: 100vh;
+    width: 100%;
+    padding-bottom: 20px;
+    margin-bottom: 2em;
+
+}
+
+.vr_scrivania{
+
+    height: 100%;
+    width: 100%;
+}
+
+#centroimg p{
+
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.spancolor{
+
+    color: #017185
+}
+
+/* link torna su */
+
+.tornasu{
+
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    background-color: #354758;
+    margin: 0;
+
+}
+
+.tornasu a{
+    color: #fff;
+}
+
+/* footer */
+
+#fine{
+    background-color: #222f3e;
+    text-align: center;
+}
+
+#fine img{
+    padding: 50px;
+    height: 60px;
+}
+
+/* parte 2 amazon */
+
+#scatola{
+
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 2em;
+    
+}
+
+.quadranti{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 400px;
+    background-color: #fff;
+    position: relative;
+
+   
+    
+}
+
+.quadranti p{
+ 
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 0px;
+    position: absolute;
+    display: flex;
+    top: 15px;
+    left: 15px;
+}
+
+
+
+.itemsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 75%;
+}
+
+.item{
+
+    width: 10em;
+    position:relative;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+/* .item>span{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 15px;
+    top: 110px
+    
+} */
+
+.item>img{
+
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    
+}
+
+.link{
+
+    position: relative;
+    bottom: -30px;
+    left: 20px;
+    color: #017185;
+    text-decoration: none;
+    
+}
+
+.quadranti a{
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+}
+
+.quadranti span{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 15px;
+    top: 140px;
+
+   
+}
+
+
+
+
+
+
+
+
+
+
